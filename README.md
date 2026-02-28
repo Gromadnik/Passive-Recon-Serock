@@ -1,25 +1,18 @@
-# Passive-Recon-Serock
-# OSINT & Passive Reconnaissance Audit: serock.pl
+# Passive Reconnaissance & OSINT Audit | serock.pl
 
-## 🎯 Project Overview
-An educational security audit focused on gathering actionable intelligence about the `serock.pl` domain. [cite_start]The goal was to map the attack surface using exclusively **passive reconnaissance** techniques to ensure zero footprint on the target's infrastructure.
+## Project Overview
+[cite_start]Comprehensive security audit of a public sector domain focusing on passive reconnaissance techniques to identify the attack surface without direct interaction with the target's infrastructure.
 
----
+## Tools Used
+* **Subdomain Enumeration:** Subfinder, crt.sh.
+* **Technology Profiling:** Wappalyzer (identified Joomla CMS, Apache server).
+* **Information Gathering:** WHOIS, DNS record analysis (A, MX, NS).
+* **Metadata Analysis:** Exiftool (analyzing public documents for sensitive leaks).
 
-## 🛠️ Tools & Methodology
-* [cite_start]**Subdomain Enumeration:** Discovered hidden assets using `Subfinder` and `crt.sh`.
-* [cite_start]**Fingerprinting:** Identified the technology stack (Joomla CMS, Apache Server) via `Wappalyzer`.
-* [cite_start]**Network Mapping:** Analyzed DNS records (A, MX, NS) and WHOIS data.
-* [cite_start]**Metadata Analysis:** Used `Exiftool` to extract sensitive information from publicly available documents.
+## Key Findings
+* Identified active subdomains and mapped the DNS infrastructure.
+* Discovered specific software versions used in the CMS and web server.
+* Analyzed public files for metadata leaks (potential author names/software paths).
 
----
-
-## 🔍 Key Findings
-* [cite_start]**Infrastructure Mapping:** Successful identification of subdomains and IP addresses.
-* [cite_start]**System Profiling:** Mapped specific software versions for potential vulnerability correlation.
-* [cite_start]**Data Leaks:** Identified metadata in public files that could be used for social engineering or targeted attacks.
-
----
-
-## ⚖️ Ethical Disclaimer
-This project was conducted for **educational purposes only**. All information was gathered from public sources using passive methods. No active scanning or exploitation was performed.
+## Disclaimer
+This project was conducted for educational purposes only. All techniques used were passive and complied with ethical standards.
