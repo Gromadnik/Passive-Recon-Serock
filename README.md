@@ -1,7 +1,7 @@
 # Passive Reconnaissance & OSINT Audit | serock.pl
 
 ## Project Overview
-[cite_start]Comprehensive security audit of a public sector domain focusing on passive reconnaissance techniques to identify the attack surface without direct interaction with the target's infrastructure.
+Comprehensive security audit of a public sector domain focusing on passive reconnaissance techniques to identify the attack surface without direct interaction with the target's infrastructure.
 
 ## Tools Used
 * **Subdomain Enumeration:** Subfinder, crt.sh.
